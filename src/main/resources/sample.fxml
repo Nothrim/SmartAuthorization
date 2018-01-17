@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.LoginForm">
+    <children>
+        <VBox alignment="CENTER" prefHeight="642.0" prefWidth="907.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label alignment="TOP_LEFT" text="Login" />
+                <TextField fx:id="login" alignment="CENTER" maxWidth="300.0" minWidth="100.0" />
+                <Label text="Password" />
+                <PasswordField fx:id="password" maxWidth="300.0" />
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+               <children>
+                        <Button fx:id="loginButton" maxHeight="50.0" maxWidth="300.0" minWidth="75.0" mnemonicParsing="false" text="Login" />
+                        <Button fx:id="registerButton" maxHeight="50.0" maxWidth="300.0" minWidth="75.0" mnemonicParsing="false" text="Register" />
+               </children>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </VBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
