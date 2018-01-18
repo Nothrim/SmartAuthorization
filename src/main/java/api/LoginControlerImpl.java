@@ -11,6 +11,7 @@ import java.security.NoSuchAlgorithmException;
 public class LoginControlerImpl implements LoginController {
     private LoginData loginData;
 
+
     private LoginData getLoginData() throws IOException {
         if (loginData == null) {
             loginData = LoginData.load();
