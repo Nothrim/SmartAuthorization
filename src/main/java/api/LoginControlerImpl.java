@@ -16,6 +16,7 @@ public class LoginControlerImpl implements LoginController {
         if (loginData == null) {
             loginData = LoginData.load();
         }
+
         return loginData;
     }
 
